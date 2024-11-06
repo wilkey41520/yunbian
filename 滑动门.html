@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>091王丽媛</title>
+    <style>
+        .yijicaidan{
+            list-style: none;
+            padding: 5;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .yijicaidan>li{
+            background-color: greenyellow;
+            margin: 10px;
+            width: 300px;
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50px;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            font-size: 25px;
+        }
+        .erjihezi{
+            position: relative;
+            left: 10%;
+            background-color: aquamarine;
+            width: 35px;
+            border-radius: 30px;
+            display: none;
+            flex-direction: column;
+            align-items: center;
+            margin-left: 5px;
+            padding: 0px ;
+        }
+        .erjicaidan{
+            list-style: inside;
+            padding: 0px;
+        }
+        .erjicaidan>li{
+            margin: 1px;
+            width: 100%;
+        }
+        .erjicaidan > li {
+            display: block;
+            width: 100%;
+            text-align: center;
+            font-size: 26px;
+        }
+        .yijicaidan>li:hover>.erjihezi{
+            display: flex;
+        }
+    </style>
+</head>
+<body>
+    <img src="D:\《源码》\css\16滑动门\故乡小院.jpg" alt="故乡" width="600px">
+    <div class="yijihezi">
+        <ul class="yijicaidan">
+            <li>
+                <a href="#">🚌天堂旅行团</a>
+            </li>
+            <li>
+                <a href="#">🐕让我留在你身边</a>
+            </li>
+            <li>
+                <a href="#">🏙从你的全世界路过</a>
+            </li>
+            <li>
+                <a href="#">☁云边有个小卖部</a>
+                <div class="erjihezi">
+                    <ul class="erjicaidan">
+            <li>
+                <a href="#">🌇</a>
+            </li>
+            <li>
+                <a href="#">🌳</a>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
